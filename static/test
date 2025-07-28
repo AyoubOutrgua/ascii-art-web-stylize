@@ -1,0 +1,99 @@
+@media (max-width: 480px) {
+
+      .inputSection,
+      .outputSection {
+          width: 99vw;
+          height: 40vh;
+          min-height: 30vh;
+          padding: 10px 0;
+      }
+
+      .inputText,
+      .outputText {
+          font-size: 1rem;
+          padding: 10px;
+      }
+
+      .btn,
+      .banner {
+          font-size: 1.1rem;
+          padding: 12px;
+      }
+      .title {
+          font-size: 2rem;
+          margin-top: 10px;
+          margin-bottom: 10px;
+      }
+  }
+
+  @media (max-width: 767px) {
+      main {
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .mainSection {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+      }
+
+      .inputSection {
+          height: 40vh;
+          width: 90vw;
+      }
+
+      .outputSection {
+          height: 40vh;
+          width: 90vw;
+      }
+
+      .inputText {
+          width: 90%;
+      }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1700px) {
+      .inputSection {
+          width: 25vw;
+      }
+
+      .inputText {
+          width: 90%;
+          height: 20% !important;
+
+      }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+      main {
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .mainSection {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+      }
+
+      .inputSection {
+          height: 45vh;
+          width: 60vw;
+      }
+
+      .outputSection {
+          height: 45vh;
+          width: 60vw;
+      }
+
+      .inputText {
+          width: 90%;
+      }
+  }
